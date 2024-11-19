@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar mulai */
+.navbar {
+  background-color: #d6c0b3;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+}
+
+.logo {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.menu {
+  margin-left: 800px;
+  padding-top: 27px;
+}
+
+.navbar .logo span {
+  color: #ab886d;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  color: #ab886d;
+  font-style: oblique;
+}
+/* Navbar selesai */
+
+/*  Hero Section mulai */
+.banner {
+  background-color: #ab886d;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  border-radius: 500px;
+  height: 200px;
+  border: 1.5px solid #d6c0b3;
+  box-shadow: #ab886d;
+  margin-top: 100px;
+  box-shadow: 0 0 15px #150e09;
+}
+
+.banner h1 {
+  margin-top: 10px;
+}
+
+.banner p {
+  font-size: smaller;
+  margin-top: 5px;
+  align-items: start;
+}
+
+.banner button {
+  margin-top: 60px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 50px;
+  border: none;
+}
+
+.banner button:hover {
+  background-color: #d6c0b3;
+  border: 1px solid #ffff;
+  color: #fff;
+}
+
+h1 span:before {
+  content: "";
+  animation: gerak infinite 8s ease;
+  transform: translateY(-50%);
+  color: #d6c0b3;
+  font-size: 70px;
+}
+
+@keyframes gerak {
+  0% {
+    content: "Selamat Datang";
+  }
+  50% {
+    content: "Saya Raya Tsania";
+  }
+  100% {
+    content: "I'm a Web Developer";
+  }
+}
+/* Hero Section selesai */
+
+/* tentang saya mulai */
+/* .box-tulis { */
+/* text-align: center;
+  color: #4d4d4d;
+  margin-top: 90px; */
+/* align-content: center; */
+/* } */
+/* tentang saya selesai */
+
+/* Hobi mulai */
+.hobi {
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 90px;
+  align-content: center;
+  /* background-color: #2771d1; */
+}
+
+.bola,
+.basket,
+.ps {
+  width: 300px;
+  height: 220px;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 70px 20px 20px 55px;
+  border-radius: 10px;
+  float: left;
+  transition: 1s;
+}
+
+.isi {
+  transition: 1s;
+}
+
+.bola img,
+.basket img,
+.ps img {
+  width: 100px;
+  border-radius: 500px;
+  transition: 1s;
+}
+
+.bola:hover {
+  color: #fff;
+  background-color: #d6c0b3;
+  transition: 0.5s;
+  transform: translateY(-35px);
+  box-shadow: 0px 0px 25px #d6c0b3;
+}
+
+.bola:hover .isi {
+  transition: 0.5s;
+  transform: translateY(-50px);
+}
+
+.bola:hover .isi img {
+  border: 10px solid #d6c0b3;
+  transform: translateY(-45px);
+  transition: 1s;
+}
+
+.ps:hover {
+  color: #fff;
+  background-color: #d6c0b3;
+  transition: 0.5s;
+  transform: translateY(-35px);
+  box-shadow: 0px 0px 25px #d6c0b3;
+}
+
+.ps:hover .isi {
+  transform: translateY(-45px);
+  transition: 0.5s;
+}
+
+.ps:hover .isi img {
+  border: 10px solid #d6c0b3;
+  transform: translateY(-45px);
+  transition: 1s;
+}
+
+.basket:hover {
+  color: #fff;
+  background-color: #d6c0b3;
+  transition: 0.5s;
+  transform: translateY(-35px);
+  box-shadow: 0px 0px 25px #d6c0b3;
+}
+
+.basket:hover .isi {
+  transform: translateY(-45px);
+  transition: 0.5s;
+}
+
+.basket:hover .isi img {
+  border: 10px solid #d6c0b3;
+  transform: translateY(-45px);
+  transition: 1s;
+}
+
+/* Hobi selesai */
+
+/* kontak mulai */
+.kontak img {
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.kontak {
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 100px;
+}
+/* kontak selesai */
+
+/* Footer */
+footer {
+  background-color: #d6c0b3;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerwe {
+  width: 100%;
+  padding: 10px 10px 5px;
+}
+
+.logoicon {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.logoicon a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ab886d;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.logoicon a i {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+
+.logoicon a:hover {
+  background-color: #483527;
+  transition: 0.5s;
+ 
+}
+
+.logoicon a:hover i {
+  color: #fff;
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+.created {
+  text-align: center;
+  color: #4d4d4d;
+}
+
+/* SELESAIII */
